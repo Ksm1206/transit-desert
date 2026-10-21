@@ -1,4 +1,0 @@
-﻿Model,CV R2,R2 sd,RMSE,MAE,params
-RandomForest,0.9198848704355999,0.027178140486520837,3.6037341773244065,2.5658434242424244,"{""max_depth"": null, ""min_samples_leaf"": 1, ""n_estimators"": 300}"
-GradientBoosting,0.9290576185395714,0.021848125922339763,3.395103789196462,2.426415363331964,"{""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 300, ""subsample"": 0.8}"
-ExtraTrees,0.9281729203637031,0.02162768580467864,3.4121684282551197,2.4391112226119587,"{""max_depth"": 8, ""min_samples_leaf"": 1, ""n_estimators"": 300}"
