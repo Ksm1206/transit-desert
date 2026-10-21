@@ -44,6 +44,11 @@ python run_all.py --from 10   # 10_select_variables부터
 | kpass_sido_202604.csv | K-패스 시도별 이용자 수(2026.4) | 국토교통부 공개 자료 |
 | HangJeongDong_ver20201001.geojson | 행정동 경계(통계청 기준) | github.com/vuski/admdongkor |
 
+**이용조건·출처 표시**
+- 공공데이터포털 자료(버스정류장·버스노선·도시철도역사): 이용허락범위 제한 없음
+- KOSIS·국토교통부 공개 통계: 출처를 밝혀 사용
+- 행정동 경계: 출처 통계청 SGIS(sgis.kostat.go.kr), 가공 vuski/admdongkor (https://github.com/vuski/admdongkor), CC BY 4.0. `work/polys2020.pkl`은 이 경계를 시군구 단위로 합친 파생 자료입니다.
+
 ## 코드 구성 (`src/`, 파일 앞 번호가 실행 순서)
 | 단계 | 파일 |
 | --- | --- |
