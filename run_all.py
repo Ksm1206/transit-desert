@@ -10,7 +10,7 @@ STEPS=[('01_prepare_kosis','KOSIS 원자료 → CSV'),('02_build_mode_share','�
  ('11_compare_models','모델 비교(교차검증)'),('12_shap_values','정확 SHAP'),('13_cluster_k','229개 SHAP·K 선정'),
  ('14_cluster_types','K-means(k=3)'),('15_cluster_profile','유형 프로필'),('16_policy_threshold','정책 효율구간'),
  ('17_benefit_carbon','혜택·CO₂ 분배'),('18_car_scenario','자가용 시나리오'),('19_apply_2026','2026 적용·검증'),
- ('20_tago_quality','TAGO 배차 정보 공백'),('21_robustness','탄소 효율·민감도·밀도 통제'),('22_spatial_autocorr',"Moran's I·LISA"),('23_policy_numbers','정책제안 수치(크레딧 재원·보너스 비용)'),('24_figures_extra','보조 그림(모델 비교·SHAP·K 선정·지도)'),('25_figures_report','보고서 그림 A~C')]
+ ('20_tago_quality','TAGO 배차 정보 공백'),('21_robustness','탄소 효율·민감도·밀도 통제'),('22_spatial_autocorr',"Moran's I·LISA"),('23_policy_numbers','정책제안 수치(크레딧 재원·보너스 비용)'),('24_figures_extra','보조 그림(모델 비교·SHAP·K 선정·지도)'),('25_figures_report','보고서 그림 A~C'),('26_uncertainty','검증 신뢰구간·환급액 가정 점검')]
 start=sys.argv[sys.argv.index('--from')+1] if '--from' in sys.argv else STEPS[0][0]
 idx=next(i for i,(s,_) in enumerate(STEPS) if s==start or s.startswith(start.zfill(2)+'_'))
 for s,desc in STEPS[idx:]:
